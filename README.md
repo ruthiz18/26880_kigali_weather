@@ -1,17 +1,13 @@
-# kigali_weather
+# Kigali Weather
 
-A new Flutter project.
+A Flutter app that shows the live weather for Kigali, Huye, Musanze and Rubavu. My data is now saved on the phone with shared_preferences, so nothing is lost when the app closes: it remembers the city I chose and the last weather of each city, and it shows live weather from the Open-Meteo API.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![Before closing](screenshots/before.png)
 
-A few resources to get you started if this is your first Flutter project:
+![After running again](screenshots/after.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Live data from an API](screenshots/api.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![No internet](screenshots/no-internet.png)
